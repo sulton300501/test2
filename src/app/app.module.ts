@@ -10,6 +10,7 @@ import { GetAllComponent } from './component/get-all/get-all.component';
 import { GetByIdComponent } from './component/get-by-id/get-by-id.component';
 import { UpdateComponent } from './component/update/update.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -25,7 +26,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
